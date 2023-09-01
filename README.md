@@ -5,7 +5,10 @@ Salieron los datos del censo de 2022 en Panamá, pero tienen problemas.
 1. Los códigos de lugar poblado no coinciden entre un censo y el otro
 2. El Instituto Nacional de Estadística y Censo no ha publicado la cartografía correspondiente y no sabemos si lo hará
 
-Esta es la documentación del intento de hacer encajar la mayor parte posible de los polígonos del censo del 2010, creados por la unidad cartográfica del INEC a cargo de Héctor Cedeño (Q.E.P.D.), con la lista de lugares poblados publicada por el INEC en 2023. En este repositorio incluyo los archivos y queries de PostgreSQL utilizados. Saber PostgreSQL para este tipo de cosas es como un super poder. Seguro alguien que sepa más puede seguirla de aquí sin tanto trabajo manual. O quizá el INEC publicará pronto los datos geográficos.
+Esta es la documentación del intento de hacer encajar la mayor parte posible de los polígonos del censo del 2010, creados por la unidad cartográfica del INEC a cargo de Héctor Cedeño (Q.E.P.D.), con la lista de lugares poblados publicada por el INEC en 2023. En este repositorio incluyo los archivos y queries de PostgreSQL utilizados. Los corregimientos del INEC son muy grandes para Github pero se pueden bajar [aquí](https://nube.almanaqueazul.org/s/ngtg3jqSDZkKSN5).
+
+
+Saber PostgreSQL para este tipo de cosas es como un super poder. Seguro alguien que sepa más puede seguirla de aquí sin tanto trabajo manual. O quizá el INEC publicará pronto los datos geográficos.
 
 El resultado final de este intento es un .gpkg que incluye los polígonos que coincidieron, con una columna, "pase_match" que indica en qué pase coincidieron. Los pases van más o menos bajando en cuanto a confianza del encaje, pero creo que todo son bastante confiable.
 
