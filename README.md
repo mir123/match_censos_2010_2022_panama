@@ -1,5 +1,7 @@
 # Amansando los datos del censo de Panamá de 2023
 
+![image](https://github.com/mir123/match_censos_2010_2023_panama/assets/907400/5c7b032e-0047-414a-a788-7e9e999d991b)
+
 Salieron los datos del censo de 2023 en Panamá, pero tienen problemas. 
 
 1. Los códigos de lugar poblado no coinciden entre un censo y el otro
