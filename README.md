@@ -293,7 +293,7 @@ FROM lugares_poblados_poligono_clean lp
 JOIN lugpob_corregimientos_actualizados_2023 ON lugpob_corregimientos_actualizados_2023.codigo_2010 = lp.codigo
 WHERE lp.codigo NOT IN (SELECT codigo_2010 FROM match_censos_2010_2023);
 ````
-# Insertar a los que no encajaron de 2023 y crear un circulo proporcional a la poblacion en el centroide del corregimiento (con una traslación aleatoria)
+## Finalmente, insertar a los que no encajaron de 2023 y crear un circulo proporcional a la poblacion en el centroide del corregimiento (con una traslación aleatoria)
 ````
 INSERT INTO match_censos_2010_2023 (
 codigo_2010,
